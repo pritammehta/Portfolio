@@ -1,0 +1,215 @@
+*{margin:0px; padding:0px; box-sizing:border-box;}
+
+body{font-family:'Oswald', sans-serif;}
+.font_roboto{font-family: 'Roboto', sans-serif;}
+.margin_all{margin-top:100px;}
+.website_color{color:#fff;}/*-- YELLOW --*/
+.website_color2{color:#ff0000;}/*-- RED --*/
+.website_color3{color:#57a937;}
+.website_bg-color{background-color:#f30404;}/*-- RED --*/
+.website_bg-color2{background-color:#eaeaea;}
+
+
+
+/* == == == ==Zoom In== == == == */
+.zoom:hover{transform:scale(1.1);}
+
+/* == == == == == == == == == == == == == == Header == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Header == == == == == == == == == == == */
+#header_position{background-color:rgba(255,255,255,0.6);}
+.site_name{font-size:40px;}
+
+
+
+
+/* == == == == == == == == == == == == == == Banner == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Banner == == == == == == == == == == == */
+.banner{position:relative;}
+.banner_txt{position:absolute; width:100%; height:100%; left:0px; top:0px; z-index:1;}
+.banner_txt1{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); 
+             background-color:rgba(255,255,255,0.5); color:white; font-weight:normal; }
+.banner_txt11{font-size:60px; line-height:30px;}
+.banner_txt22{font-size:20px; font-family: 'Indie Flower', cursive;}
+.banner_txt1 span{letter-spacing:5px;}
+
+
+
+.website_button{color:#fff; background-color:#ff0000; transition:all 1s; border-width:0;}
+.website_button:hover{color:#ff0000; background-color:#fff;}
+.website_button a{text-decoration:none;color:#ffe837;}
+.website_button a:hover{text-decoration:none; color:#e41749; background-color:#ffe837;}
+
+.banner_row{background-image:url(images/menu.jpg); padding:130px;}
+
+
+/* ==Call for order== */
+.call{position:fixed; left:10px; bottom:40%; z-index:1;}
+.call i{color:#ff0000; transition:all 1s;}
+.call i:hover{color:#fff;}
+
+/* ==Go TOP== */
+.go_top{position:fixed; right:20px; bottom:20px; z-index:1; display:none;}
+.go_top a{color:#ff0000; transition:all 1s;}
+.go_top a:hover{color:#fff;}
+
+
+
+/* == == == == == == == == == == == == == == ABOUT US == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == ABOUT US == == == == == == == == == == == */
+#aboutus_colors h2{color:#091f36;}
+#aboutus_colors h1{color:#DCC7AA;}
+
+#about_btn{color:#fff; background-color:#ff0000; transition:all 1s;}
+#about_btn:hover{color:#ff0000; background-color:#fff;}
+
+
+
+
+
+
+/* == == == == == == == == == == == == == == Services == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Services == == == == == == == == == == == */
+.services{position:relative; width:50%; height:auto; margin:auto;}
+
+.services_effect{position:absolute; width:100%; height:100%; left:0px; top:0px;}
+
+
+
+/* == == == == == == == == == == == == == == Menu View More == == == == == == == == == ==  */
+/* == == == == == == == == == == == == == == Menu View More == == == == == == == == == ==  */
+
+
+
+
+
+/* == == == == == == == == == == == == == == Review == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Review == == == == == == == == == == == */
+.review_main{background-image:url(images/review.jpg); background-size:cover;}
+.review_inner{padding:150px;}
+
+
+
+
+
+/* == == == == == == == == == == == == == == Form == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Form == == == == == == == == == == == */
+.form_content input:first-child{display:block; width:50%;}
+.form_content input{width:16.66%; background-color:rgba(165,42,42,0); margin:auto;
+margin-bottom:30px; text-align:center; border-width:2px 2px 3px 2px; border-color:white; color:white; font-size:20px;}
+
+
+
+/* == == == == == == == == == == == == == == BOOK A TABLE == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == BOOK A TABLE == == == == == == == == == == == */
+.table_bg{background-image:url(images/table.jpg); background-attachment:fixed;}
+
+.form_txt input{display:block; width:100%; height:auto; margin-bottom:10px; padding:5px; border-width:0px 0px 2px 0px; 
+border-color:#e41749; text-align:center; margin-bottom:20px;}
+textarea{width:100%; height:100%;}
+#contform_btn{background-color:#ff0000; color:#fff; transition:all 1s; font-weight:bold;}
+#contform_btn:hover{background-color:#fff; color:#ff0000;}
+
+
+
+.booking{width:22%; height:auto; margin:auto;}
+.booking input{width:40%; text-align:center; border-width:0px; }
+.booking select{width:40%; text-align:center; height:30px;}
+.subt input{color:#fff; background-color:#ff0000; border-width:1px; padding:5px; font-weight:bold; 
+transition:all 1s; border-style:groove;}
+.subt input:hover{color:#ff0000; background-color:#fff;}
+
+
+
+
+
+
+/* == == == == == == == == == == == == == == Story == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == Story == == == == == == == == == == == */
+
+.story_border{border-width:0px 0px 0px 2px; border-style:groove;}
+.story_border1{border-width:0px 2px 0px 0px; border-style:groove;}
+
+
+
+/* == == == == == == == == == == == == == == FOOTER == == == == == == == == == == == */
+/* == == == == == == == == == == == == == == FOOTER == == == == == == == == == == == */
+.footer_change a{transition:all 1s;}
+.footer_change a:hover{color:#ff0000;}
+.footer_change input{transition:all 1s;}
+.footer_change input:hover{background-color:#fff; color:#ff0000;}
+
+
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- --Animation-- -- -- -- -- -- -- -- -- --- -- -- -- */
+
+/* -- BORDER ROTATION --*/
+/* -- BORDER ROTATION  --*/
+@keyframes anim
+{
+	0%{border-width:0px;}
+	25%{border-left:0px; border-color:#ffe837;}
+	50%{border-top:2px; border-color:yellow;}
+	75%{border-right:2px; border-color:#ffe837;}
+	100%{border-bottom:0px; border-color:ffe837;}
+}
+
+
+/* -- ICON ROTATE --*/
+/* -- ICON ROTATE --*/
+@keyframes table_icon
+{
+	0%{color:#ffe837;  transition:all 2s;}
+	100%{color:#ffe837;transform:scale(-1,1); transition:all 2s;}
+}
+
+
+/* -- ROTATE IMAGE --*/
+/* -- ROTATE IMAGE --*/
+@keyframes rotate_anim
+{
+	0%{}
+	100%{transform:rotate(360deg);}
+}
+.rotate{animation:rotate_anim 15s infinite linear;}
+
+
+
+
+
+
+@media (max-width: 576px) 
+{
+	
+	/* -- Header --*/
+	 .site_name{font-size:16px;}
+	
+    /* -- Banner --*/
+     .banner_txt11{font-size:30px; line-height:10px;}
+     .banner_txt22{font-size:10px;}
+     .banner_txt1 span{letter-spacing:1px;}
+     .banner_txt button{display:none;}
+	 .banner_row{background-image:url(images/menu.jpg); padding:75px;}
+	 
+    /* -- Call --*/
+	 .call{position:fixed; left:10px; bottom:1%; z-index:1;}
+	 
+	/* -- Menu --*/ 
+	 .menu_details p{font-size:12px;}
+	 .menu_size h5{font-size:13px;}
+
+    /* -- Story --*/
+     .story_border{border-width:0px 0px 0px 0px; border-style:groove;}
+     .story_border1{border-width:0px 0px 0px 0px; border-style:groove;}
+     .story_year{display:none;}
+	 
+	/* -- Review --*/ 
+     .review_inner{padding:25px;}
+
+	/* -- Book a table --*/ 
+     .booking input{width:100%; text-align:center; }
+     .booking select{width:100%; text-align:center; height:30px;}
+
+    /* -- Footer --*/
+     .subscribe_marg{margin-top:10px;}
+  
+}

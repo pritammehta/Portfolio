@@ -1,0 +1,173 @@
+
+/* ==Go TOP== */
+.go_top{position:fixed; right:20px; bottom:10px; z-index:1; display:none;}
+.go_top a{color:black; transition:all 1s;}
+.go_top a:hover{color:#DCC7AA;}
+
+
+
+
+@media (max-width: 576px) 
+{
+	
+  .topban{margin-top:190px;}
+}
+
+
+/*----------------------------Navigation--------------------------------*/
+.navbar-nav  li a{font-size:20px;color:white;}
+.navhov a{transition:all .5s;}
+.navhov:hover a{background-color:darkre;  box-shadow: #ee2b59 0px 1px 10px; !important;}
+.navcolor{background-color:#143b47;}
+.bgcol{background-color:#052433;}
+/*----------------------------Navigation End--------------------------------*/
+
+
+/*------------------------------------Home / Index -------------------*/
+
+
+
+.XI-shadow{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.bann{width:1200px;height:350px;}
+.outer{width:auto;height:auto;}
+
+.country{transition:all 1s;}
+.country:hover{transform:scale(.9);}
+
+.navmarg{margin-left:100px}
+
+.banmg{width:1200px;height:500px;}
+
+	a:hover{text-decoration:none;}
+	
+	
+.6s1{font-size:70px;}
+.6s2{font-size:30px;}
+.6s3{font-size:45px;}
+
+
+
+/*------------------------------------Home / Index -------------------*/
+.headln1{border-radius: 15px 50px; border:2px solid white}
+.underline{transition:all 1s;}
+.underline:hover{text-decoration:underline; color:white;}
+
+
+
+@media (max-width: 576px) 
+{
+	
+  .hdhidden{display:none;}
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .bantxt{font-size:50px;}
+}
+
+
+
+
+.timeheight{height:200px;}
+.teamlink{text-decoration:none;}
+.socialclr a{color:black;}
+
+
+.news:hover{transform:scale(1.1);box-shadow:0px 0px 0px black;}
+.news{transition:all .8s;}
+
+.room{width:auto;max-width:1024px; height:auto;
+		  overflow:hidden;
+		position:relative;}
+		
+table td{  border-bottom:black 1px solid; padding:8px;}		
+
+.video_selector{position:relative;background-color:#052433; font-family:serif; border-radius:0px 0px 0px 0px;}
+.vidsize{width:auto;height:auto;}
+
+
+
+/*-------------------- STATS -------------------*/
+
+.statscorn{transition:all .8s;}
+.statscorn:hover{background-color:black;}
+
+.statscorn1{transition:all .8s;}
+.statscorn1:hover{background-color:lightblue;}
+
+/*-------------------- STATS -------------------*/
+
+
+/*--------------------Matches----------------*/
+.hdrmain{border: 5px white solid; color:white}
+.hdr{font-size:40px;color:white;}
+.hdr1{font-size:80px; color:yellow;}
+.hdr2{font-size:60px; font-weight:bold; color:yellow;}
+.hdrsm{ font-size:20px; font-weight:bold; color:white;}
+
+@media (max-width: 576px) {
+	
+	.hdr{font-size:20px;color:white;}
+ .hdr1{font-size:40px;}
+ 
+}
+
+
+
+.hovr{width:100%;position:relative;height:100%;overflow:hidden;}
+
+.hovr img{
+
+width:100%;height:100%;transition:all 2s;}
+
+
+.text{color:white;position:absolute;top:50%;
+left:50%;transform:translate(-50%,-50%);
+font-size:20px;
+}
+.overlap{height:100%;width:100%;background-color:rgba(0,0,0,0.5);position:absolute;transition:all 1s ;top:100%;left:0;}
+
+ .hovr:hover .overlap{top:0px;}
+
+
+
+
+/*-------------------- Matches Ends -------------------*/
+		
+		
+		
+		
+		
+		
+/*--------------------STANDING----------------*/		
+
+
+@media (max-width: 576px) 
+{
+	
+  .stand{display:none;}
+}
+
+
+
+		
+/*--------------------STANDING----------------*/
+		
+		
+		
+		
+/*---		
+.timeline{transition:all 2s; }
+.timeline:hover{transform: rotateY(50deg);}
+
+--------------------------------- FOOTER -------------------*/		
+
+
+
+.footbg1{}
+.footbg2{background-color:#ee2b59;}
+
+.videowidth { width: 450px; cursor: pointer; }
+video{width: 100%;}
